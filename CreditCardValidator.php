@@ -111,7 +111,7 @@ class CreditCardValidator extends Validator
     public function validateDate($creditCardExpiredMonth, $creditCardExpiredYear)
     {
         $currentMonth = intval(date('n'));
-        $currentYear = intval(date('Y'));
+        $currentYear = intval(date('y'));
 
         if (is_scalar($creditCardExpiredMonth)) $creditCardExpiredMonth = intval($creditCardExpiredMonth);
         if (is_scalar($creditCardExpiredYear)) $creditCardExpiredYear = intval($creditCardExpiredYear);
