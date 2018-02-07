@@ -7,7 +7,7 @@
  * @author Bryan Tan <bryantan16@gmail.com>
  */
 
-namespace bryglen\validators;
+namespace senyor\validators;
 
 use yii\base\InvalidValueException;
 use yii\validators\Validator;
